@@ -1,0 +1,95 @@
+main {
+  width: 70%;
+  margin: auto;
+  margin-top: 4em;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btnContainer{
+    padding-top: 2em;
+    width: 85%;
+    margin:auto;
+}
+
+.start{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.req{
+    font-size: 12px;
+}
+
+.at{
+    font-size: 15px;
+    font-weight: 500;
+}
+small{
+    display: block;
+}
+
+button{
+    background-color:rgb(15, 193, 15);
+    color: white;
+    
+}
+
+
+.row {
+  display: flex;
+  gap:20px;
+  justify-content: space-between;
+  align-items: center;
+}
+small {
+  color: red;
+}
+
+
+@media only screen and (max-width: 800px) {
+  main {
+    width: 100%;
+    margin:auto;
+    margin-top: 4em;
+  }
+
+  
+
+  .info{
+    display: none;
+  }
+
+  .container{
+    width: 85%;
+    margin:auto;
+    display: flex;
+    // justify-content: center;
+    gap:5px;
+    .row{
+        display:block;
+        text-align:center;
+        gap:0;
+        margin-left:0px;
+    }
+
+    
+  }
+  mat-form-field{
+    text-align: center;
+    width: 70%;
+  }
+
+  .select{
+    margin-top:15px;
+  }
+
+  button{
+    width: 100%;
+  }
+ 
+}
+

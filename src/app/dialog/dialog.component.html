@@ -1,0 +1,24 @@
+<section>
+  <div class="main">
+    <!-- https://www.doctoride.com/assets/img/dialog/search.svg -->
+    <div class="header">
+      <div class="content">
+        <span>
+          <mat-icon>search</mat-icon>
+        </span>
+        <span class="res">Result</span>
+      </div>
+      <div (click)="close()" class="btn">
+        <mat-icon>clear</mat-icon>
+      </div>
+    </div>
+    <h2>Result</h2>
+    <div>start : {{ start_date }}</div>
+    <div>end : {{ end_date }}</div>
+    <div class="close" (click)="close()">
+      <button mat-raised-button >close</button>
+    </div>
+  </div>
+
+  <mat-icon class="imgContainer">search</mat-icon>
+</section>
